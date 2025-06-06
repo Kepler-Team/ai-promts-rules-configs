@@ -14,13 +14,15 @@ This repository contains AI prompts, rules, and configuration files to exchange 
 ## Directory Structure
 
 ```text
+├── README.md                    # This file - project overview
 prompts/
-├── README.md                    # This file - project overview and cursor_rules                     # Cursor IDE specific configurations
+├── {username}_prompt_name.md    # AI prompt template to use for some task
+cursor_rules                     # Cursor IDE specific configurations
 ├── {username}.cursorrules       # Main Cursor IDE rules file
-└── {username}_cursor_config.md  # User-specific Cursor description
+└── {username}_cursor_config.md  # User-specific Cursor rules description
 windsurf_rules  
 ├── {username}.windsurfrules        # Main Windsurf rules file
-└── {username}_windsurf_config.md   # User-specific Windsurf description
+└── {username}_windsurf_config.md   # User-specific Windsurf rules description
 other
 ```
 
