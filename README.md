@@ -1,6 +1,6 @@
 # AI Configuration and Rules repository
 
-This repository contains AI prompts, rules, and configuration files to exchange solely inside the Kepler Team Company.
+This repository contains AI prompts, rules, Codex skills, and configuration files for Kepler Team workflows.
 
 ## Contents
 
@@ -17,6 +17,8 @@ This repository contains AI prompts, rules, and configuration files to exchange 
 ├── README.md                    # This file - project overview
 prompts/
 ├── {username}_prompt_name.md    # AI prompt template to use for some task
+skills/
+├── {skill_name}/                # Codex skills that can be installed from this repository
 cursor_rules                     # Cursor IDE specific configurations
 ├── {username}.cursorrules       # Main Cursor IDE rules file
 └── {username}_cursor_config.md  # User-specific Cursor rules description
@@ -31,7 +33,13 @@ other
 - **`cursor_rules/`** - Cursor IDE rules and configurations
 - **`windsurf_rules/`** - Windsurf editor rules and configurations  
 - **`prompts/`** - AI prompt templates organized by category
+- **`skills/`** - Codex skills that can be installed by path from this repository
 - **`other/`** - Other configurations and best practices which do not fit into the other directories
+
+## Available Skills
+
+- **QA Compass**: `skills/qa-compass`
+  - Install link: `https://github.com/Kepler-Team/ai-promts-rules-configs/tree/main/skills/qa-compass`
 
 ## Documentation Standards
 
